@@ -2,6 +2,7 @@ import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import ServiceSummary from "./sections/ServiceSummary";
 import Services from "./sections/Services";
+import About from "./sections/About";
 import { ReactLenis } from "lenis/react";
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <ServiceSummary />
       <Services />
+      <About />
       <section className="min-h-screen"></section>
       <section className="min-h-screen"></section>
 
